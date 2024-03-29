@@ -81,13 +81,13 @@ Time Series Forecasting of Walmart Sales Data using Deep Learning and Machine Le
      * Numerical columns normalized using MinMaxScaler in the range 0 to 1
 
 - Recursive Feature Elimination
- * Random Forest Regressor used to calculate feature ranks and importance with 23 
-   estimators
- * Features selected to retain
-       [x] mean, median, Week, Temperature, max, CPI, Fuel_Price, min, std, Unemployment, 
-           Month, Total_MarkDown, Dept_16, Dept_18, IsHoliday, Dept_3, Size, Dept_9, Year, 
-           Dept_11,Dept_1, Dept_5, Dept_56
-* No. of attributes after feature elimination - 24
+     * Random Forest Regressor used to calculate feature ranks and importance with 23 
+       estimators
+     * Features selected to retain
+        [x] mean, median, Week, Temperature, max, CPI, Fuel_Price, min, std, Unemployment, 
+            Month, Total_MarkDown, Dept_16, Dept_18, IsHoliday, Dept_3, Size, Dept_9, Year, 
+            Dept_11,Dept_1, Dept_5, Dept_56
+     * No. of attributes after feature elimination - 24
 
 ## Splitting Dataset
 - Dataset was splitted into 80% for training and 20% for testing
